@@ -1,0 +1,28 @@
+.card-item {
+    width: 20rem;
+}
+
+.card-item:hover {
+    width: 21rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button:hover {
+    background-color: rgb(138, 138, 252);
+    color: white;
+    border: none;
+}
+
+.maps {
+    border-radius: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p {
+    margin-block: 5px;
+}
