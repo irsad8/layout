@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 5vw;
+    background-color: aqua;
+    width: 90vw;
+    border-radius: 2rem;
+    gap: 1em;
+    font-size: 5rem;
+}
+
+.img {
+    width: 50%;
+}
+
+img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.descript {
+    width: 50%;
+}
+
+p {
+    font-size: 3em;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        flex-direction: column;
+        gap: 0em;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .descript {
+        width: 100%;
+    }
+}
